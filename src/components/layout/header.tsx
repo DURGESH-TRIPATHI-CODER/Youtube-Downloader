@@ -67,7 +67,7 @@ export function Header() {
           <div className="hidden md:block w-px h-4 bg-border/60 mx-1"></div>
 
           <a 
-            href="https://github.com/udaysharmadev/Youtube-Downloader" 
+            href="https://github.com/DURGESH-TRIPATHI-CODER/Youtube-Downloader" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center gap-2 h-8 px-3 rounded-full border border-border/50 bg-muted/30 hover:bg-muted/80 hover:border-border transition-all text-sm font-medium"

@@ -167,7 +167,7 @@ export function MediaCard({ info, onDownloadStateChange }: MediaCardProps) {
   const handleShare = async (platform: string) => {
     trackEvent("share_clicked", { platform });
     const text = `I just downloaded "${info.title}" using YouTube Downloader! Try it out:`;
-    const url = "https://github.com/udaysharmadev/Youtube-Downloader";
+    const url = "https://github.com/DURGESH-TRIPATHI-CODER/Youtube-Downloader";
 
     if (platform === "copy") {
       await navigator.clipboard.writeText(`${text} ${url}`);
@@ -368,7 +368,7 @@ export function MediaCard({ info, onDownloadStateChange }: MediaCardProps) {
                       
                       <div className="flex flex-col sm:flex-row items-center justify-center gap-2 pt-2">
                         <a 
-                          href="https://github.com/udaysharmadev/Youtube-Downloader" 
+                          href="https://github.com/DURGESH-TRIPATHI-CODER/Youtube-Downloader" 
                           target="_blank" 
                           rel="noopener noreferrer"
                           onClick={() => trackEvent("github_cta_clicked", { location: "post_download" })}

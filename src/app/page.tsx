@@ -12,7 +12,7 @@ export default function Home() {
         <div className="space-y-4">
           <div className="flex flex-wrap items-center justify-center gap-3">
             <a 
-              href="https://github.com/udaysharmadev/Youtube-Downloader"
+              href="https://github.com/DURGESH-TRIPATHI-CODER/Youtube-Downloader"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center rounded-full border border-border/50 bg-muted/30 px-3 py-1.5 text-sm font-medium text-muted-foreground transition-all hover:bg-muted/80 hover:text-foreground hover:border-border"
